@@ -1,2 +1,11 @@
 # Investigation Steps – Project 01: SIEM Log Analysis
 
+## Objective
+Detect brute force login attempts using sample Windows logs.
+
+## Tools Used
+- Windows Event Viewer
+- Security.evtx log
+- Event ID reference (MITRE Attack Framework)
+
+## Steps Taken
