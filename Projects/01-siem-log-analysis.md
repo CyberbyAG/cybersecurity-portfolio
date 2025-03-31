@@ -39,7 +39,7 @@ To investigate a suspected brute force attack using Windows Event Logs and ident
 
 - Approximately [25] failed logon attempts against the user account `admin`.  
 - All failed attempts originated from the IP address `XX(.)XX(.)XX(.)XX`.  
-- The attempts occurred within a time frame of 1 min, indicating automation.  
+- The attempts occurred within a time frame of [30 sec], indicating automation.  
 - Event ID 4740 confirmed that the `admin` account was locked out due to repeated failures.  
 - No successful logon (Event ID 4624) was observed from this source during the same time window.
 
