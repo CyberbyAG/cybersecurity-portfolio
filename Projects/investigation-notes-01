@@ -1,11 +1,62 @@
 # Investigation Steps – Project 01: SIEM Log Analysis
 
+**Project:** Brute Force Detection using Windows Event Logs  
+**Author:** CyberbyAG 
+**Date:** 31/03/2025
+
+---
+
 ## Objective
-Detect brute force login attempts using sample Windows logs.
+
+To detect signs of a brute force attack using Windows Security event logs and identify the attacker’s behavior based on log patterns.
+
+---
 
 ## Tools Used
-- Windows Event Viewer
-- Security.evtx log
-- Event ID reference (MITRE Attack Framework)
 
-## Steps Taken
+- Windows Event Viewer
+- `Security.evtx` file from malware-traffic-analysis.net
+- **Event IDs Analyzed:** 4625 (Failed Logon), 4740 (Account Lockout), 4624 (Successful Logon)
+- Mitre Attack Framework
+
+---
+
+## Log Source
+
+- `Security.evtx` – Collected from a Windows host during a simulated attack
+
+---
+
+## Step-by-Step Process
+
+1. Downloaded and extracted `windows-event-logs.zip`.
+2. Opened `Security.evtx` in Windows Event Viewer.
+3. Applied a filter to show only Event ID **4625** (failed logon).
+4. Identified repeated failed login attempts on the account `admin`.
+5. Reviewed:
+   - Target Account Name
+   - Source IP Address / Workstation
+   - Failure Reason
+   - Time of Event
+6. Counted the number of failed attempts within a short time window.
+7. Check Event ID **4624** (Successful Logon) to check did the attacked got the access or not.
+8. Searched for Event ID **4740** to confirm account lockout.
+9. Cross-referenced activity with MITRE ATT&CK Technique [T1110 – Brute Force](https://attack.mitre.org/techniques/T1110/).
+10. Drafted findings and recommendations in a report format.
+
+---
+
+## Key Indicators Found
+
+- **User:** `admin`  
+- **Repeated Event ID:** 4625  
+- **Source IP:** `XX.XX.XX.XX`  
+- **Account Lockout Detected:** Yes (Event ID 4740)
+
+---
+
+## Outcome
+
+The log analysis confirmed a brute force attempt. The attacker failed to access the account, but the activity triggered an account lockout event. Recommendations were made to enhance authentication and monitoring.
+
+---
