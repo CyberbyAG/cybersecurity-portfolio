@@ -1,9 +1,13 @@
 # Project Report – Brute Force Detection via Windows Event Logs
 
 **Analyst:** CyberbyAG
+
 **Date:** 31/03/2025
+
 **Tool(s) Used:** Windows Event Viewer  
+
 **Log Source:** Collected from a Windows host during a simulated attack `Security.evtx`
+
 **Event IDs Analyzed:** 4625 (Failed Logon), 4740 (Account Lockout), 4624 (Successful Logon)
 
 -----------------------------------------
