@@ -1,9 +1,13 @@
 # Privilege Escalation Detection Report
 
 **Analyst:** CyberbyAG 
+
 **Date:** 01/04/2025  
+
 **Tool(s) Used:** Windows Event Viewer  
+
 **Log Source:** Security.evtx 
+
 **Event IDs Analyzed:**  
 - 4624 (Successful Logon)  
 - 4672 (Special Privileges Assigned)  
