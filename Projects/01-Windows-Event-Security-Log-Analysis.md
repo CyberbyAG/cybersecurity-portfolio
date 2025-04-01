@@ -38,7 +38,7 @@ To investigate a suspected brute force attack using Windows Event Logs and ident
 ## Findings
 
 - Approximately [25] failed logon attempts against the user account `admin`.  
-- All failed attempts originated from the IP address `XX(.)XX(.)XX(.)XX`.  
+- All failed attempts originated from the IP address `127.0.0.1`.  
 - The attempts occurred within a time frame of [30 sec], indicating automation.  
 - Event ID 4740 confirmed that the `admin` account was locked out due to repeated failures.  
 - No successful logon (Event ID 4624) was observed from this source during the same time window.
@@ -54,7 +54,7 @@ To investigate a suspected brute force attack using Windows Event Logs and ident
 
 ## Recommendations
 
-- Block IP address `192.168.1.104` at the network perimeter.  
+- Block IP address `127.0.0.1` at the network perimeter.  
 - Enforce multi-factor authentication for privileged accounts.  
 - Review account lockout threshold and time window settings.  
 - Monitor for further suspicious login activity from similar sources.  
