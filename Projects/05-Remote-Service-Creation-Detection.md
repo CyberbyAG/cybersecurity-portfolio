@@ -40,6 +40,7 @@ To detect and analyze remote service creation events, which are commonly used by
 - **User SID:** `S-1-5-21-1587066498-1489273250-1035260531-500`
 
 > The service was configured to auto-start and ran `calc.exe`. While `calc.exe` is benign, its usage here is indicative of remote code execution simulation.
+![image](https://github.com/user-attachments/assets/66981439-8dcb-4831-a5cd-d5824a49e60a)
 
 ---
 
@@ -51,6 +52,7 @@ To detect and analyze remote service creation events, which are commonly used by
 - **User SID:** `S-1-5-21-1587066498-1489273250-1035260531-1108`
 
 > This service mimics a legitimate system service name `spoolsv`, but the binary path points to `cmd.exe`, indicating a likely abuse for executing system commands.
+![image](https://github.com/user-attachments/assets/63848bfe-419e-4855-8031-b41d09f678df)
 
 ---
 
@@ -62,6 +64,7 @@ To detect and analyze remote service creation events, which are commonly used by
 - **User SID:** `S-1-5-21-1587066498-1489273250-1035260531-1108`
 
 > Similar to the above, this is a spoofed variant to evade detection. The repetition suggests multiple attempts to gain or maintain access.
+![image](https://github.com/user-attachments/assets/00e5b653-37cf-48ee-8f3b-78f13be4f7f1)
 
 ---
 
