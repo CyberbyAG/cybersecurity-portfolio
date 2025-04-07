@@ -1,8 +1,10 @@
 # Playbook: Impossible Travel Login Detection and Response
 
 **Use Case:** Detect and respond to login activity that occurs from geographically distant locations within an unreasonably short time—indicating potential account compromise.
+
 Analyst: CyberbyAG
-Date: 03/04/2025
+
+Date: 07/04/2025
 
 **MITRE ATT&CK Mapping:**
 - **T1078** – Valid Accounts
