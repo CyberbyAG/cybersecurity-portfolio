@@ -2,6 +2,10 @@
 
 **Use Case:** Detect and respond to scenarios where a user experiences multiple failed login attempts followed by a successful one, which may indicate brute-force or credential stuffing attempts.
 
+**Analyst:** CyberbyAG  
+
+**Date:** 03/04/2025  
+
 **MITRE ATT&CK Mapping:**
 - **Tactic:** Credential Access, Initial Access
 - **Technique:** Valid Accounts – [T1078](https://attack.mitre.org/techniques/T1078/)
