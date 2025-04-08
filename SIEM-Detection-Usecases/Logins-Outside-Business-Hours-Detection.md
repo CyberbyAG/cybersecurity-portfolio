@@ -2,6 +2,10 @@
 
 **Use Case:** Identify and investigate user login attempts that occur outside standard working hours, which could indicate unauthorized access or compromised credentials.
 
+**Analyst:** CyberbyAG  
+
+**Date:** 03/04/2025  
+
 **MITRE ATT&CK Mapping:**
 - **T1078** – Valid Accounts
 
