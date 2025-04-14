@@ -1,7 +1,7 @@
 # SIEM Playbook – Brute Force Attack Detection
 
 **Analyst:** CyberbyAG  
-**Date:** 03/04/2025  
+ 
 **Category:** Authentication Abuse  
 **MITRE ATT&CK Technique:** [T1110 – Brute Force](https://attack.mitre.org/techniques/T1110/)  
 
