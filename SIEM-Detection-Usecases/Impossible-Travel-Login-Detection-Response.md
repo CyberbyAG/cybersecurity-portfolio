@@ -4,8 +4,6 @@
 
 Analyst: CyberbyAG
 
-Date: 07/04/2025
-
 **MITRE ATT&CK Mapping:**
 - **T1078** – Valid Accounts
 - **T1530** – Data from Cloud Storage Object
