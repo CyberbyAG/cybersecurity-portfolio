@@ -4,8 +4,6 @@
 
 **Analyst:** CyberbyAG  
 
-**Date:** 03/04/2025  
-
 **MITRE ATT&CK Mapping:**
 - **Tactic:** Credential Access, Initial Access
 - **Technique:** Valid Accounts – [T1078](https://attack.mitre.org/techniques/T1078/)
