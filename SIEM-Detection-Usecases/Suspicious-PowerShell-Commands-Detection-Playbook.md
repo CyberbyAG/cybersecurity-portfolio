@@ -3,7 +3,6 @@
 **Use Case:** Detecting potentially malicious or obfuscated PowerShell usage within the environment  
 **MITRE ATT&CK Technique:** T1059.001 – Command and Scripting Interpreter: PowerShell  
 **Created by:** CyberbyAG  
-**Date:** 02/04/2025  
 
 ---
 
