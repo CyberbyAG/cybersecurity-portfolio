@@ -2,7 +2,9 @@
 
 **Use Case:** Detect and respond to attempts to clear Windows Event Logs, which attackers may use to cover their tracks after unauthorized access.
 
+**Analyst:** CyberbyAG
 
+**Date:** 03/04/2025  
 
 **MITRE ATT&CK Mapping:**
 - **T1070.001** – Indicator Removal on Host: Clear Windows Event Logs
