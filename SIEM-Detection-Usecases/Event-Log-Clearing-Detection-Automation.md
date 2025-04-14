@@ -4,8 +4,6 @@
 
 **Analyst:** CyberbyAG
 
-**Date:** 03/04/2025  
-
 **MITRE ATT&CK Mapping:**
 - **T1070.001** – Indicator Removal on Host: Clear Windows Event Logs
 
