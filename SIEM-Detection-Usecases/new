@@ -1,7 +1,8 @@
-
 # Playbook: Event Log Clearing Detection and Automation
 
 **Use Case:** Detect and respond to attempts to clear Windows Event Logs, which attackers may use to cover their tracks after unauthorized access.
+
+
 
 **MITRE ATT&CK Mapping:**
 - **T1070.001** – Indicator Removal on Host: Clear Windows Event Logs
