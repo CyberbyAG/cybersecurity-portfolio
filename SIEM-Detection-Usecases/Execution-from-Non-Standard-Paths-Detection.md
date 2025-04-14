@@ -1,5 +1,9 @@
 # Playbook: Execution from Non-Standard Paths Detection
 
+**Analyst:** CyberbyAG 
+
+**Date:** 14/04/2025  
+
 **Use Case:** Detect execution of processes from suspicious or non-standard directories such as `Temp`, `AppData`, or `Recycle Bin`, which are often abused by attackers for payload staging and evasion.
 
 **MITRE ATT&CK Mapping:**
