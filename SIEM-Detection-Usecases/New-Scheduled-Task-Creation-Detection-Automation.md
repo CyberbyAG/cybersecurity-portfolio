@@ -5,8 +5,6 @@
 
 **Analyst:** CyberbyAG  
 
-**Date:** 03/04/2025  
-
 **MITRE ATT&CK Mapping:**
 - **T1053.005** – Scheduled Task/Job: Scheduled Task
 
