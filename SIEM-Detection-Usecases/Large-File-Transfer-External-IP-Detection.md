@@ -2,7 +2,6 @@
 
 **Use Case:** Detect and respond to large data transfers from internal systems to external IP addresses, which may indicate data exfiltration or unauthorised activity.
 **Analyst:** CyberbyAG  
-**Date:** 04/04/2025  
 **MITRE ATT&CK Mapping:**
 - **T1048** – Exfiltration Over Alternative Protocol
 - **T1041** – Exfiltration Over Command and Control Channel
