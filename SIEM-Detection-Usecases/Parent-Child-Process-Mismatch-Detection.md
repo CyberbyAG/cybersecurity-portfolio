@@ -2,8 +2,6 @@
 
 **Analyst:** CyberbyAG  
 
-**Date:** 03/04/2025  
-
 **Use Case:** Detect anomalies in process relationships where legitimate applications (like `winword.exe`, `excel.exe`) spawn suspicious children (e.g., `cmd.exe`, `powershell.exe`, `wscript.exe`).
 
 **MITRE ATT&CK Mapping:**
