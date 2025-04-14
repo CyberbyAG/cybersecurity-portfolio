@@ -2,8 +2,6 @@
 
 **Analyst:** CyberbyAG  
 
-**Date:** 03/04/2025  
-
 **Use Case:** Detect and respond to potential brute-force attacks or credential stuffing based on multiple account lockouts within a short period.
 
 **MITRE ATT&CK Mapping:**
