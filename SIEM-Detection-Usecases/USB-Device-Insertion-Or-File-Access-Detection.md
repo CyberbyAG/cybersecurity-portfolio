@@ -1,8 +1,9 @@
 # Playbook: USB Device Insertion and File Access Detection
 
 **Use Case:** Detect when a USB storage device is inserted into a host and files are accessed or copied from it.
+
 **Analyst:** CyberbyAG  
-**Date:** 04/04/2025  
+
 **MITRE ATT&CK Mapping:**
 - **Tactic:** Collection
 - **Technique:** T1005 – Data from Local System
